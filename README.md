@@ -1,5 +1,5 @@
-# CIM540
-Intro to Creative Coding
+# Creative Coding
+CIM 540: Intro to Creative Coding
 
 Hi, my name is Gururaj Shriram, or Guru for short. I'm a Senior majoring in Computer Science and Economics and I'm excited to learn more about creative coding! This is me:
 
