@@ -14,7 +14,7 @@ function setup() {
   createStars();
 }
 function draw() {
-  // reset colors
+  // Reset background
   background('black');
 
   // Stars
@@ -30,19 +30,20 @@ function draw() {
   var finTopY = rocketBodyY + 15;
   var finBottomY = rocketBodyY + 40;
 
+  // Reset sketch if the space ship has exceeded bounds
   if (rocketBodyY <= -125) {
     rocketBodyY = 300;
     createStars();
   }
 
-  // Body
+  // Ship Body
   ellipse(rocketBodyX, rocketBodyY, 40, 125);
 
   // Window
   fill('#7EC0EE')
   ellipse(windowX, windowY, 20, 20)
 
-  // Left Fin
+  // Fins
   fill('red');
   triangle(rocketBodyX - 18, finTopY, rocketBodyX - 12, finBottomY, rocketBodyX - 40, finBottomY + 5);
   triangle(rocketBodyX + 18, finTopY, rocketBodyX + 12, finBottomY, rocketBodyX + 40, finBottomY + 5);
@@ -51,6 +52,7 @@ function draw() {
   fill('#E25822');
   arc(rocketBodyX, rocketBodyY + 50, 25, 30, 0, PI);
 
+  // Move everything up
   rocketBodyY -= 2;
 }
 
@@ -69,6 +71,8 @@ function createStars() {
 function populateStars() {
   stroke('white');
   strokeWeight(3);
+
+  // Iterate through dictionary and create the points
   Object.keys(stars).forEach(function(key) {
     point(key, stars[key]);
   });
