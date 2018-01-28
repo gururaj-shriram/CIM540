@@ -32,7 +32,7 @@ function draw() {
 
   // Reset sketch if the space ship has exceeded bounds
   if (rocketBodyY <= -125) {
-    rocketBodyY = 300;
+    rocketBodyY = 450;
     createStars();
   }
 
@@ -53,7 +53,7 @@ function draw() {
   arc(rocketBodyX, rocketBodyY + 50, 25, 30, 0, PI);
 
   // Move everything up
-  rocketBodyY -= 2;
+  rocketBodyY -= 3;
 }
 
 function createStars() {
