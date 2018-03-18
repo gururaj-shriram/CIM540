@@ -1,4 +1,4 @@
-#Mind Flow
+# Mind Flow
 
 Mind Flow is a Processing sketch set in a still life image of a river. The sketch starts out with an image of a river followed by particles flowing in to occupy the river area, creating a synthetic river flow on top of the real river.
 
@@ -25,7 +25,7 @@ There are several inputs to Mind Flow:
 * Clicking the mouse (with mouseX and mouseY)
 * Dragging the mouse (with mouseX and mouseY)
 * (P)ause
-* (R)eset 
+* (R)eset
 
 ## Target Audience
 The target audience is adults who are interested in visualizing their states of mind and/or are interested in having an interactive medium to interface with their states of mind. The target audience also includes people who enjoy computer generated imagery.
