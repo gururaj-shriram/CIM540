@@ -19,7 +19,7 @@ There are several inputs to Mind Flow:
 * Pressing "p or P" pauses the sketch
 * Pressing "r or R" resets the sketch
 
-## Sketch Interactions
+## Interactions
 * MindWave EEG Sensor readings
 * Changes in the Slider
 * Clicking the mouse (with mouseX and mouseY)
@@ -28,7 +28,7 @@ There are several inputs to Mind Flow:
 * (R)eset
 
 ## Target Audience
-The target audience is adults who are interested in visualizing their states of mind and/or are interested in having an interactive medium to interface with their states of mind. The target audience also includes people who enjoy computer generated imagery.
+The target audience includes people of all ages who enjoy art, animation, and computer generated imagery. Adults may be interested in visualizing their state of mind and/or having an interactive medium to interface with their state of mind. Children may enjoy watching the river's color change and disrupting the particles' flow. Overall, I believe this project appeals to most.
 
 ## Displaying the Project
-This project may be displayed on online art galleries, such as OpenProcessing. It could possibly also be displayed at a neuroscience or technological conference to demonstrate a relatively fun way of using human computer interactions to create an interactive environment.
+This project may be displayed on online art galleries, such as OpenProcessing. It could possibly also be displayed at a neuroscience or technological conference to demonstrate a relatively fun way of using human computer interactions to create an interactive environment. As far as viewing the project, it's recommended to use a computer instead of a mobile device because of the hardware used and to obtain the best quality.
